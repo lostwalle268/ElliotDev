@@ -5,11 +5,12 @@ Hello! I am a Colombian passionate about the computer world and cybersecurity, I
 ##
 <div align="center">
   <a href="https://github.com/XGilmar">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lostwalle268&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lostwalle268&show_icons=true&theme=merko&include_all_commits=true&count_private=true"/>
 </div> 
 <div>
 <h2 align="center">Skills</h2>
-<img src= "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" target="_blank"></a>    <img src= "https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" target="_blank"></a>
+<div align="center">
+<img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lostwalle268&layout=compact&langs_count=7&hide_border=false&title_color=a2c801&text_color=67b587&bg_color=0b0f0a"/>
 </div>
 <h3 align="center">Dev contacts</h3>
 <div align="center"> 
