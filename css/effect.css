@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', Sans-Serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.glasscard {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(225,225,225, 0.1), rgba(225,225,225,0) );
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(225,225,225,0.18);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+/* =============== caja de foto ============== */
+.imgBX {
+  position: absolute;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  border: 2px solid rgba(225,225,225,0.18);
+  transform: translateY(55px) scale(0.5);
+  transform-origin: top;
+  overflow: hidden;
+
+}
+
+.imgBX img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2rem;
+
+}
+
+.details {
+  text-align: center;
+}
+
+.details h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.details h2 span {
+  color: #03a9f4;
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+.icono {
+  display: flex;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.icono a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 1.9em;
+  color: #fff;
+  background-color: rgba(225,225,225,0.15);
+  text-decoration: none;
+  cursor: none;
+  transition: background-color 0.5s;
+}
+
+.icono a:hover {
+  background-color:#03a9f4;
+  cursor: pointer;
+  color: #fff;
+}
+
+/*-----------rgba de hexagono--------------*/
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 100vh;
+  background: #0c1229;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/*============ step 2 ==============*/
+.hex-grid .grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../asset/imgsv/grid1.svg);
+  width: 100%;
+  height: 100%;
+  background-size: 300px;
+  z-index: 10;
+}
+
+/*============ step 3 ================*/
+
+.hex-grid .light {
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  filter: blur(15px);
+  background: linear-gradient(90deg, #0c1229 0%, #2ae9c9 100%);
+  animation-name: luzfondo;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transition: all 2s ease;
+}
+.hex-grid .light-1 {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  filter: blur(15px);
+  background: linear-gradient(90deg, #0c1229 0%, #2ae9c9 100%);
+  animation-name: luzfondo;
+  animation-duration: 4s;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transition: .2s;
+}
+
+@keyframes luzfondo {
+  0% {
+    background: linear-gradient(90deg, #0c1229 0%, #2ae9c9 100%);
+    left: 0px;
+    top: 0px;
+    width: 15rem;
+    height: 15rem;
+  }
+  25% {
+    background: linear-gradient(90deg, red 0%, #ff4040 100%);
+    left: 600px;
+    top: 0px;
+    width: 20rem;
+    height: 20rem;
+  }
+  50% {
+    background: linear-gradient(90deg, #0c1229 0%, #2ae9c9 100%);
+    left: 600px;
+    top: 600px;
+    width: 30rem;
+    height: 30rem;
+
+  }
+  75% {
+    background: linear-gradient(90deg, red 0%, #ff4040 100%);
+    left: 0px;
+    top: 600px;
+    width: 40rem;
+    height: 40rem;
+  }
+  100% {
+    background: linear-gradient(90deg, #0c1229 0%, #2ae9c9 100%);
+    left: 0;
+    top: 0;
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+
+
+/* linear-gradient(90deg, #335bf4 0%, #2ae9c9 100%); */
