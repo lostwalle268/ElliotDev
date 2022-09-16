@@ -10,6 +10,12 @@ Hello! I am a Colombian passionate about the computer world and cybersecurity, I
 <div>
 <h2 align="center">Skills</h2>
 <div align="center">
+<img alt="Rafa-Js" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+<img alt="Rafa-py" height="50" widht="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-plain.svg">
+</div>
+
+
+<div align="center">
 <img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lostwalle268&layout=compact&langs_count=7&hide_border=false&title_color=a2c801&text_color=67b587&bg_color=0b0f0a"/>
 </div>
 <h3 align="center">Dev contacts</h3>
