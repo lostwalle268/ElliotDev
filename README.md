@@ -1,6 +1,7 @@
 [![code-coding-web-development.jpg](https://i.postimg.cc/8CwfJW5f/code-coding-web-development.jpg)](https://postimg.cc/v1gZC45G)
 <h1 align="center">Welcome to my profile!</h1>
-Hello! I am a Colombian passionate about the computer world and cybersecurity, I am passionate about learning, in this repository you can find my presentation.
+Hello World! I am a Colombian passionate about the computer world and cybersecurity, I am passionate about learning, in this repository you can find my presentation.
+I'm interested on proyects that helps me to achieve some experience, I'm new writing code so, thanks you for reading. 
 
 ##
 <div align="center">
